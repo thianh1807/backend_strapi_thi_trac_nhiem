@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_headers",
+  "info": {
+    "displayName": "header"
+  },
+  "options": {},
+  "attributes": {
+    "logo_text": {
+      "type": "string"
+    },
+    "slogan": {
+      "type": "string"
+    }
+  }
+}

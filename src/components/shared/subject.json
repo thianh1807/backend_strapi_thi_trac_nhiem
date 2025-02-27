@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_shared_subjects",
+  "info": {
+    "displayName": "subject"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "status_try": {
+      "type": "boolean"
+    }
+  }
+}

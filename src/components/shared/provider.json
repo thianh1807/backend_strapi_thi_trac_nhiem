@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_providers",
+  "info": {
+    "displayName": "provider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "text"
+    },
+    "question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.question"
+    }
+  }
+}

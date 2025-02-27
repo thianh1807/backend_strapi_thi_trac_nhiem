@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_shared_questions",
+  "info": {
+    "displayName": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true,
+      "filterable": true,
+      "unique": false
+    },
+    "answerA": {
+      "type": "text",
+      "required": true
+    },
+    "answerB": {
+      "type": "text",
+      "required": true
+    },
+    "answerC": {
+      "type": "text",
+      "required": true
+    },
+    "answerD": {
+      "type": "text",
+      "required": true
+    },
+    "results": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  }
+}

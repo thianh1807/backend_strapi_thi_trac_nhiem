@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_copyrights",
+  "info": {
+    "displayName": "copyright"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

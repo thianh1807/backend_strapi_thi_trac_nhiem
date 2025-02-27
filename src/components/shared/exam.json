@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_shared_exams",
+  "info": {
+    "displayName": "exam",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text"
+    },
+    "status_try": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.question"
+    }
+  }
+}

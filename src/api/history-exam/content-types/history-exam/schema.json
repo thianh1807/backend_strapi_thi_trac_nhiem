@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "history_exams",
+  "info": {
+    "singularName": "history-exam",
+    "pluralName": "history-exams",
+    "displayName": "HistoryExam",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "msv": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.answer"
+    },
+    "namelecturer": {
+      "type": "string"
+    },
+    "mgv": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "exam_day": {
+      "type": "datetime"
+    },
+    "point": {
+      "type": "string"
+    }
+  }
+}

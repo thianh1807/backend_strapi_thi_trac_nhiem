@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_navbar_items_lefts",
+  "info": {
+    "displayName": "Navbar_items_left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "_self",
+        "_parent",
+        "_top"
+      ]
+    }
+  }
+}

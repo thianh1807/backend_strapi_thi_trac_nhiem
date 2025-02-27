@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_answers",
+  "info": {
+    "displayName": "answer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "string"
+    },
+    "results": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "answer_user": {
+      "type": "enumeration",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_information_teachers",
+  "info": {
+    "displayName": "information_teacher",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mgv": {
+      "type": "string"
+    }
+  }
+}

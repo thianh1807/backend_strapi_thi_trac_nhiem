@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_shared_hero_sections",
+  "info": {
+    "displayName": "hero_section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "panner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "header": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_social_networks",
+  "info": {
+    "displayName": "social_network",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "target": {
+      "type": "enumeration",
+      "enum": [
+        "_blank",
+        "_self",
+        "_parent",
+        "_top"
+      ]
+    }
+  }
+}

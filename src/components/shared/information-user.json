@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_information_users",
+  "info": {
+    "displayName": "information_user",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mav": {
+      "type": "string"
+    },
+    "class": {
+      "type": "string"
+    },
+    "study": {
+      "type": "string"
+    },
+    "lock": {
+      "type": "string"
+    }
+  }
+}

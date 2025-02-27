@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_shared_exam_students",
+  "info": {
+    "displayName": "exam_student",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.question"
+    },
+    "class": {
+      "type": "string",
+      "required": true
+    },
+    "subject": {
+      "type": "string",
+      "required": true
+    },
+    "lecturer": {
+      "type": "string",
+      "required": true
+    },
+    "exam_day": {
+      "type": "datetime",
+      "required": true
+    },
+    "see_exam_results": {
+      "type": "boolean",
+      "default": true
+    },
+    "status_try": {
+      "type": "boolean"
+    },
+    "point": {
+      "type": "string",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "default": "9000",
+      "required": true
+    }
+  }
+}

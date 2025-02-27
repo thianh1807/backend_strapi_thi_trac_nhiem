@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_rich_texts",
+  "info": {
+    "displayName": "Rich text",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.navbar-items-left"
+    },
+    "btn_nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.navbar-items-left"
+    }
+  }
+}
